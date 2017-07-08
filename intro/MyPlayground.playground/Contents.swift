@@ -103,6 +103,63 @@ if let hereMatch = randStr2.range(of: "here"){
     randStr2.replaceSubrange(hereMatch, with: "there")
 }
 
+//arrays
+
+var array1  = [Int]()
+print("empty: \(array1.isEmpty)")
+
+array1.append(7)
+print(array1)
+array1 += [1,2,3,4,5,6]
+print("Index 1: \(array1[1])")
+
+array1[0] = 4
+array1.insert(10, at: 3)
+print(array1)
+array1.remove(at: 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
