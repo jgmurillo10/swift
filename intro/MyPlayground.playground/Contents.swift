@@ -30,3 +30,24 @@ var two: Int = 2
 
 var five = three+Double(two)
 print("3: \(Int(3.14))")
+
+//conditionals
+
+var age: Int = 8
+if age < 5 {
+    print("less than 5")
+} else if age == 5{
+    print("equals 5")
+} else if (age > 5) && (age<=18){
+    var grade: Int = age-5
+    print("Go to grade \(grade)")
+} else {
+    print("go to college")
+}
+
+var income: Double = 12000
+var gpa: Double = 3.7
+
+print("get grand: \((income<15000)||(gpa>=3.8)) ")
+
+print("Not TRUE: \(!true)")
