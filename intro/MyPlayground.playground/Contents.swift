@@ -117,12 +117,47 @@ array1[0] = 4
 array1.insert(10, at: 3)
 print(array1)
 array1.remove(at: 3)
+print(array1)
+array1[0...3] = [1,2,3,4]
+print(array1)
 
+print("Items length: \(array1.count)")
 
+var array2 = Array(repeating: 0, count: 5)
 
+var array3 = array1 + array2
+for i in array3 {
+    print(i)
+}
 
+for (i,value) in array3.enumerated() {
+    print("\(i) ; \(value)")
+}
+var array4 = [1,2,3]
+for i in array4 {
+    print(i)
+}
+print()
+for i in 1...5 {
+    print(i)
+}
+print()
+for i in 1...10 where i%2 == 0 {
+    print(i)
+}
 
-
+var i: Int = 1
+while i < 10 {
+    if i % 2 == 0 {
+        i += 1
+        continue
+    }
+    if i == 7 {
+        break
+    }
+    print(i)
+    i += 1
+}
 
 
 
