@@ -1,4 +1,4 @@
-# swift
+# Swift 3
 This is a repository where I will storage all the basics about Swift 3 and XCode 8
 
 ## Intro
