@@ -159,6 +159,8 @@ while i < 10 {
     i += 1
 }
 
+var st: String = "hola"
+
 
 
 
