@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Restrictions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeA-5r-pQu">
+                                <rect key="frame" x="0.0" y="384" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6kw-Je-EJK"/>
+                                    <constraint firstAttribute="width" constant="80" id="Vcz-NV-n6Q"/>
+                                </constraints>
+                                <state key="normal" title="Backward">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gX-EE-VV5">
+                                <rect key="frame" x="656" y="384" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QUf-Es-J3t"/>
+                                    <constraint firstAttribute="width" constant="80" id="frY-hX-zX5"/>
+                                </constraints>
+                                <state key="normal" title="Forward">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8kf-aJ-uOk">
+                                <rect key="frame" x="248" y="143" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Kd7-fW-anq"/>
+                                    <constraint firstAttribute="width" constant="240" id="ivc-B2-d7b"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oql-BA-aLi">
+                                <rect key="frame" x="77" y="384" width="582" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.221880351" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="nYd-7o-KXo"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Yout special feature just for iPhone 7 Plus Users"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="nYd-7o-KXo"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="nYd-7o-KXo"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8kf-aJ-uOk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9eA-7L-1qZ"/>
+                            <constraint firstAttribute="trailing" secondItem="8gX-EE-VV5" secondAttribute="trailing" id="ALO-6c-n4z"/>
+                            <constraint firstItem="8kf-aJ-uOk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CsH-r4-2JX"/>
+                            <constraint firstItem="Oql-BA-aLi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="57" id="DJe-QZ-p8D"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yeA-5r-pQu" secondAttribute="bottom" id="LCI-7g-D0O"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8gX-EE-VV5" secondAttribute="bottom" id="XPx-on-yW9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Oql-BA-aLi" secondAttribute="bottom" id="n5W-qT-b9Z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Oql-BA-aLi" secondAttribute="trailing" constant="57" id="qKJ-qH-Pcu"/>
+                            <constraint firstAttribute="trailing" secondItem="8gX-EE-VV5" secondAttribute="trailing" id="tvN-YF-aQY"/>
+                            <constraint firstItem="yeA-5r-pQu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wkW-8g-pe1"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Oql-BA-aLi"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="DJe-QZ-p8D"/>
+                                <exclude reference="qKJ-qH-Pcu"/>
+                                <exclude reference="n5W-qT-b9Z"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="Oql-BA-aLi"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="DJe-QZ-p8D"/>
+                                <include reference="qKJ-qH-Pcu"/>
+                                <include reference="n5W-qT-b9Z"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-83.152173913043484" y="136.23188405797103"/>
+        </scene>
+    </scenes>
+</document>
