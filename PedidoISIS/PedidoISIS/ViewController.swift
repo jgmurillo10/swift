@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         arregloPlatos.append("Pizza")
         arregloPlatos.append("Papas")
         arregloPlatos.append("Calendato")
-        arregloPlatos.append("Caseosa")
+        arregloPlatos.append("Gaseosa")
         arregloPlatos.append("Cerveza")
         print("Los platos son: \(arregloPlatos)")
         //necesitamos decirle a la tabla que implementamos sus metodos delegato y data source
