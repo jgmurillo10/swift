@@ -8,7 +8,7 @@ print("I'm a global function!")
 //min
 var initialPrice = 50
 var bestOffer = 45
-var finalPrice = min(bestOffer, initialPrice)
+var finalPrice = min(bestOffer, initialPrice, -1)
 
 //max
 var firstBid = 50
