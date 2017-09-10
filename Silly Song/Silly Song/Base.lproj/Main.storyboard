@@ -50,6 +50,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Ebt-7U-2D9"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,6 +67,10 @@
                             <constraint firstItem="c1q-0n-Pf5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="pxA-jm-4yz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lyricsView" destination="e5A-Cx-l4M" id="n3t-1K-Nil"/>
+                        <outlet property="nameField" destination="teb-IQ-oOY" id="X3u-X0-zNj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

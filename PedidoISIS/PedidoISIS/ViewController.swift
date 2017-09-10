@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         arregloPlatos.append("Hamburguesa")
         arregloPlatos.append("Pizza")
         arregloPlatos.append("Papas")
-        arregloPlatos.append("Calendato")
+        arregloPlatos.append("Calentado")
         arregloPlatos.append("Gaseosa")
         arregloPlatos.append("Cerveza")
         print("Los platos son: \(arregloPlatos)")
@@ -47,6 +47,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.performSegue(withIdentifier: "GoToDetallePlato", sender: arregloPlatos[indexPath.row])
         tableView.deselectRow(at: indexPath, animated: true)
     }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "GoToDetallePlato" {
             let  controladorDestino = segue.destination as! DetallePlatoViewController
